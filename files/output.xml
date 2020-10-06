@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8cace6db-1a65-49a2-b7ab-ee942c5e13cd" name="@erick-desktop 2020-10-04 20:00:16"
+         xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+    <Times creation="2020-10-04T20:00:16.0540572-05:00" queuing="2020-10-04T20:00:16.0540572-05:00"
+           start="2020-10-04T20:00:14.1147353-05:00" finish="2020-10-04T20:00:17.8026168-05:00"/>
+    <TestSettings name="default" id="c7058ca6-b3fd-46b5-859a-4cbd98e40fa1">
+        <Deployment runDeploymentRoot="_erick-desktop_2020-10-04_20_00_16"/>
+    </TestSettings>
+    <Results>
+        <UnitTestResult executionId="3194c652-1d96-4bb0-98c8-d9545b933082" testId="f1dd10fd-b518-d1c2-b7d3-e1d9c22a3e44"
+                        testName="LoanPaymentPro.Test.ACHOperations.ValidDebit" computerName="erick-desktop"
+                        duration="00:00:00.2443402" startTime="2020-10-04T20:00:17.5329977-05:00"
+                        endTime="2020-10-04T20:00:17.5329986-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="3194c652-1d96-4bb0-98c8-d9545b933082"/>
+        <UnitTestResult executionId="3953e53b-355a-4cf4-b469-486bc196c8e6" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;&quot;, Amount = 500, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.2855476"
+                        startTime="2020-10-04T20:00:16.1338603-05:00" endTime="2020-10-04T20:00:16.1338617-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="3953e53b-355a-4cf4-b469-486bc196c8e6"/>
+        <UnitTestResult executionId="43c7ba5a-e431-4437-bb4e-527a60810b29" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = 500, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.2972976"
+                        startTime="2020-10-04T20:00:16.8762081-05:00" endTime="2020-10-04T20:00:16.8762101-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="43c7ba5a-e431-4437-bb4e-527a60810b29"/>
+        <UnitTestResult executionId="56809dac-d885-4cd7-93c0-c1290c1eafe0" testId="7eb123e3-25cb-5d8a-367d-b7e55c84a790"
+                        testName="LoanPaymentPro.Test.ACHOperations.ValidCredit" computerName="erick-desktop"
+                        duration="00:00:00.2037112" startTime="2020-10-04T20:00:17.2867612-05:00"
+                        endTime="2020-10-04T20:00:17.2868058-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="56809dac-d885-4cd7-93c0-c1290c1eafe0"/>
+        <UnitTestResult executionId="b596fcd3-fca0-4247-aae4-140b544ac333" testId="42f00a7c-6248-8a99-6e5a-6b096b58dd87"
+                        testName="LoanPaymentPro.Test.ACHOperations.TransSearch" computerName="erick-desktop"
+                        duration="00:00:00.2109160" startTime="2020-10-04T20:00:17.7446977-05:00"
+                        endTime="2020-10-04T20:00:17.7447022-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="b596fcd3-fca0-4247-aae4-140b544ac333"/>
+        <UnitTestResult executionId="bc52c030-7acb-4df5-89a7-b378629cf90a" testId="3f06eff2-a8e3-c26b-fe2b-fcbc37ea6d3d"
+                        testName="LoanPaymentPro.Test.DebitOperations.ValidCredit" computerName="erick-desktop"
+                        duration="00:00:00.2668851" startTime="2020-10-04T20:00:16.1409995-05:00"
+                        endTime="2020-10-04T20:00:16.1410005-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="bc52c030-7acb-4df5-89a7-b378629cf90a"/>
+        <UnitTestResult executionId="64be1e21-dee8-45a0-852c-b342a432ae2e" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = 0, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.5292558"
+                        startTime="2020-10-04T20:00:15.5398262-05:00" endTime="2020-10-04T20:00:15.5398264-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="64be1e21-dee8-45a0-852c-b342a432ae2e"/>
+        <UnitTestResult executionId="4f778942-cf7e-49b7-a3d4-a4f15e95d518" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = 500, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.2157819"
+                        startTime="2020-10-04T20:00:16.5787189-05:00" endTime="2020-10-04T20:00:16.5787198-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="4f778942-cf7e-49b7-a3d4-a4f15e95d518"/>
+        <UnitTestResult executionId="eca4663e-b4ba-4d5f-9b9f-b33efa3c56cf" testId="06efa6f1-304b-3795-ecaa-735caba25a51"
+                        testName="LoanPaymentPro.Test.UnitTest1.Test1" computerName="erick-desktop"
+                        duration="00:00:00.0020996" startTime="2020-10-04T20:00:15.0114427-05:00"
+                        endTime="2020-10-04T20:00:15.0115166-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="eca4663e-b4ba-4d5f-9b9f-b33efa3c56cf"/>
+        <UnitTestResult executionId="f9e29c43-4eb0-4031-93c6-9bbf67d1cf27" testId="322c5d59-eb13-3a70-cb27-a04f974bb394"
+                        testName="LoanPaymentPro.Test.DebitOperations.InvalidDebit(d: Debit { Address1 = null, Amount = -500, City = null, Cvv = null, ExpMonth = &quot;09&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.3283731"
+                        startTime="2020-10-04T20:00:15.8691320-05:00" endTime="2020-10-04T20:00:15.8691510-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="f9e29c43-4eb0-4031-93c6-9bbf67d1cf27"/>
+        <UnitTestResult executionId="2598bd0c-51f4-4033-b54f-553c9f93bfe4" testId="29939660-d76f-28d6-4d19-9d7e3f8f3b4f"
+                        testName="LoanPaymentPro.Test.DebitOperations.ValidDebit" computerName="erick-desktop"
+                        duration="00:00:00.2172374" startTime="2020-10-04T20:00:16.3596563-05:00"
+                        endTime="2020-10-04T20:00:16.3597137-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="2598bd0c-51f4-4033-b54f-553c9f93bfe4"/>
+        <UnitTestResult executionId="9dac3cfc-83eb-4015-8deb-dedb7c4cdad9" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = -500, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.3061935"
+                        startTime="2020-10-04T20:00:15.8488961-05:00" endTime="2020-10-04T20:00:15.8489171-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="9dac3cfc-83eb-4015-8deb-dedb7c4cdad9"/>
+        <UnitTestResult executionId="30ebf4f1-aff3-41fe-b296-965fcb57460e" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = 500, City = &quot;Nowhere&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.2032538"
+                        startTime="2020-10-04T20:00:17.0804259-05:00" endTime="2020-10-04T20:00:17.0804377-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="30ebf4f1-aff3-41fe-b296-965fcb57460e"/>
+        <UnitTestResult executionId="688edb7f-f336-4ddb-9d54-b46201ad3c92" testId="17c93e02-409e-9101-9dd9-ccb7721d2e7a"
+                        testName="LoanPaymentPro.Test.DebitOperations.ValidateCard" computerName="erick-desktop"
+                        duration="00:00:00.3820724" startTime="2020-10-04T20:00:16.7440656-05:00"
+                        endTime="2020-10-04T20:00:16.7440717-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b"
+                        outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="688edb7f-f336-4ddb-9d54-b46201ad3c92"/>
+        <UnitTestResult executionId="c024d93a-4f20-42d4-a55b-9e8870469c45" testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b"
+                        testName="LoanPaymentPro.Test.ACHOperations.InvalidCredit(ach: ACH { AccountNumber = &quot;818181818181&quot;, Address1 = &quot;123 Nowhere Ln&quot;, Amount = 500, City = &quot;&quot;, FirstName = &quot;Bob&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.2289260"
+                        startTime="2020-10-04T20:00:16.3628565-05:00" endTime="2020-10-04T20:00:16.3628569-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="c024d93a-4f20-42d4-a55b-9e8870469c45"/>
+        <UnitTestResult executionId="7e571876-6f33-4fe5-af54-7b0411e79151" testId="322c5d59-eb13-3a70-cb27-a04f974bb394"
+                        testName="LoanPaymentPro.Test.DebitOperations.InvalidDebit(d: Debit { Address1 = null, Amount = 0, City = null, Cvv = null, ExpMonth = &quot;09&quot;, ... })"
+                        computerName="erick-desktop" duration="00:00:00.5292813"
+                        startTime="2020-10-04T20:00:15.5396905-05:00" endTime="2020-10-04T20:00:15.5396964-05:00"
+                        testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed"
+                        testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"
+                        relativeResultsDirectory="7e571876-6f33-4fe5-af54-7b0411e79151"/>
+    </Results>
+    <TestDefinitions>
+        <UnitTest name="LoanPaymentPro.Test.ACHOperations.ValidCredit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="7eb123e3-25cb-5d8a-367d-b7e55c84a790">
+            <Execution id="56809dac-d885-4cd7-93c0-c1290c1eafe0"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.ACHOperations" name="ValidCredit"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.DebitOperations.ValidateCard"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="17c93e02-409e-9101-9dd9-ccb7721d2e7a">
+            <Execution id="688edb7f-f336-4ddb-9d54-b46201ad3c92"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.DebitOperations" name="ValidateCard"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.ACHOperations.ValidDebit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="f1dd10fd-b518-d1c2-b7d3-e1d9c22a3e44">
+            <Execution id="3194c652-1d96-4bb0-98c8-d9545b933082"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.ACHOperations" name="ValidDebit"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.UnitTest1.Test1"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="06efa6f1-304b-3795-ecaa-735caba25a51">
+            <Execution id="eca4663e-b4ba-4d5f-9b9f-b33efa3c56cf"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.UnitTest1" name="Test1"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.ACHOperations.TransSearch"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="42f00a7c-6248-8a99-6e5a-6b096b58dd87">
+            <Execution id="b596fcd3-fca0-4247-aae4-140b544ac333"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.ACHOperations" name="TransSearch"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.ACHOperations.InvalidCredit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="f39e6893-0380-15fc-aa3a-f87c1d369c9b">
+            <Execution id="64be1e21-dee8-45a0-852c-b342a432ae2e"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.ACHOperations" name="InvalidCredit"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.DebitOperations.ValidCredit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="3f06eff2-a8e3-c26b-fe2b-fcbc37ea6d3d">
+            <Execution id="bc52c030-7acb-4df5-89a7-b378629cf90a"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.DebitOperations" name="ValidCredit"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.DebitOperations.InvalidDebit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="322c5d59-eb13-3a70-cb27-a04f974bb394">
+            <Execution id="7e571876-6f33-4fe5-af54-7b0411e79151"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.DebitOperations" name="InvalidDebit"/>
+        </UnitTest>
+        <UnitTest name="LoanPaymentPro.Test.DebitOperations.ValidDebit"
+                  storage="/home/erick/work/lpp/loanpaymentpro.test/bin/release/netcoreapp3.1/loanpaymentpro.test.dll"
+                  id="29939660-d76f-28d6-4d19-9d7e3f8f3b4f">
+            <Execution id="2598bd0c-51f4-4033-b54f-553c9f93bfe4"/>
+            <TestMethod
+                    codeBase="/home/erick/work/lpp/LoanPaymentPro.Test/bin/Release/netcoreapp3.1/LoanPaymentPro.Test.dll"
+                    adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp"
+                    className="LoanPaymentPro.Test.DebitOperations" name="ValidDebit"/>
+        </UnitTest>
+    </TestDefinitions>
+    <TestEntries>
+        <TestEntry testId="f1dd10fd-b518-d1c2-b7d3-e1d9c22a3e44" executionId="3194c652-1d96-4bb0-98c8-d9545b933082"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="3953e53b-355a-4cf4-b469-486bc196c8e6"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="43c7ba5a-e431-4437-bb4e-527a60810b29"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="7eb123e3-25cb-5d8a-367d-b7e55c84a790" executionId="56809dac-d885-4cd7-93c0-c1290c1eafe0"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="42f00a7c-6248-8a99-6e5a-6b096b58dd87" executionId="b596fcd3-fca0-4247-aae4-140b544ac333"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="3f06eff2-a8e3-c26b-fe2b-fcbc37ea6d3d" executionId="bc52c030-7acb-4df5-89a7-b378629cf90a"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="64be1e21-dee8-45a0-852c-b342a432ae2e"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="4f778942-cf7e-49b7-a3d4-a4f15e95d518"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="06efa6f1-304b-3795-ecaa-735caba25a51" executionId="eca4663e-b4ba-4d5f-9b9f-b33efa3c56cf"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="322c5d59-eb13-3a70-cb27-a04f974bb394" executionId="f9e29c43-4eb0-4031-93c6-9bbf67d1cf27"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="29939660-d76f-28d6-4d19-9d7e3f8f3b4f" executionId="2598bd0c-51f4-4033-b54f-553c9f93bfe4"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="9dac3cfc-83eb-4015-8deb-dedb7c4cdad9"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="30ebf4f1-aff3-41fe-b296-965fcb57460e"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="17c93e02-409e-9101-9dd9-ccb7721d2e7a" executionId="688edb7f-f336-4ddb-9d54-b46201ad3c92"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="f39e6893-0380-15fc-aa3a-f87c1d369c9b" executionId="c024d93a-4f20-42d4-a55b-9e8870469c45"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestEntry testId="322c5d59-eb13-3a70-cb27-a04f974bb394" executionId="7e571876-6f33-4fe5-af54-7b0411e79151"
+                   testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    </TestEntries>
+    <TestLists>
+        <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+        <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+    </TestLists>
+    <ResultSummary outcome="Completed">
+        <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0"
+                  passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0"
+                  inProgress="0" pending="0"/>
+        <Output>
+            <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.8)
+                [xUnit.net 00:00:00.33] Discovering: LoanPaymentPro.Test
+                [xUnit.net 00:00:00.38] Discovered: LoanPaymentPro.Test
+                [xUnit.net 00:00:00.38] Starting: LoanPaymentPro.Test
+                [xUnit.net 00:00:03.19] Finished: LoanPaymentPro.Test
+            </StdOut>
+        </Output>
+    </ResultSummary>
+</TestRun>
